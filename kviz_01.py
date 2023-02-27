@@ -25,10 +25,10 @@ class Kviz:
 
 broj_pitanja_po_kvizu = 5
 kviz_pitanja = [Kviz("Glavni grad američke države Merilend je:", "Anapolis", ["Dover", "Ričmond", "Vašington"]),
-                Kviz("'Posle mene potop' rekao je kralj:", "Luj XIV", ["Luj XVI", "Luj XIII", "Luj XVIII"]),
+                Kviz("'Posle mene potop' rekao je kralj:", "Luj XV", ["Luj XVI", "Luj XIII", "Luj XVIII"]),
                 Kviz("Koji program se koristi za automatsko testiranje opterećenja web sajtova?", "Apači",
                      ["Selenium", "Kindl", "Op Test"]),
-                Kviz("Kojoj grupi Sijuksa je pripadao slavni vrač i poglavica Bik Koji Sedi?", "Hhunkpapa",
+                Kviz("Kojoj grupi Sijuksa je pripadao slavni vrač i poglavica Bik Koji Sedi?", "Hunkpapa",
                      ["Minekonžu", "Crna Stopala", "Oglala"]),
                 Kviz("Najveći sisar je:", "Plavi kit", ["Afrički slon", "Žirafa", "Beli miš"]),
                 Kviz("Rodno mesto Napoleona I Bonaparte je:", "Ajačio", ["Marsej", "Pariz", "Tulon"]),

@@ -67,6 +67,7 @@ def pokreni_kviz():
         while not (int(userOdg) > 0 and int(userOdg) <= len(odgovor)):
             print("Pod ovim brojem nema nijednog odgovora. Ajde ponovo.")
             userOdg = input()
+        userOdg = int(userOdg)
         if odgovor[userOdg - 1] == kviz_pitanje.tacan_odgovor:
             print("Tačno!")
             corrCount += 1
@@ -82,6 +83,6 @@ def pokreni_kviz():
     elif corrCount == 0:
         print("Sve si omašio.")
     else:
-        print("Odgovorio si tačno na " + str(corrCount) + " od " + str(len(kviz_pitanja)) + " pitanja.")
+        print("Odgovorio si tačno na " + str(corrCount) + " od " + str(len(k_pitanja)) + " pitanja.")
 
 pokreni_kviz()
